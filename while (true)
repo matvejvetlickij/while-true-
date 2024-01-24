@@ -1,0 +1,4 @@
+while (true) {
+    echo "\nCommands:\n1. commit <message>\n2. branch <new_branch>\n3. checkout <branch>\n4. print\n5. exit\n";
+    $command = readline('Enter command: ');
+$repo = new GitRepository();
